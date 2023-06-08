@@ -1,0 +1,1 @@
+update stud_details set total=250 where name='varun'

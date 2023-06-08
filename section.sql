@@ -1,0 +1,28 @@
+use students111;
+create table ddetails_3(id int,name varchar(20),address varchar(50),maths int,phy int;
+insert into ddetails_3 values(1,'Swathi','Calicut',23,24,25,100);
+insert into ddetails_3 values(2,'Akash','Calicut',24,24,25,100);
+insert into ddetails_3 values(3,'Nisha','Kannur',23,28,25,100);
+insert into ddetails_3 values(4,'Sufail','Waynad',23,24,25,100);
+insert into ddetails_3 values(5,'Shameer','Malappuram',23,24,25,100);
+insert into ddetails_3 values(6,'Muhsina','Kottayam',23,24,25,100);
+insert into ddetails_3 values(7,'Mariya','Idukki',23,24,25,100);
+insert into ddetails_3 values(8,'Shibla','Kannur',23,24,25,500);
+insert into ddetails_3 values(9,'Bhaskar','Waynad',23,24,25,100);
+insert into ddetails_3 values(10,'Anu','Malappuram',23,24,25,450);
+select * from ddetails_3;
+select id,name from ddetails_3;
+select * from ddetails_3 where address='Calicut' or address='Kannur';
+alter table ddetails_3 add department varchar(25);
+update ddetails_3 set department="MCA" WHERE name="Swathi";
+update ddetails_3 set department="MCA" WHERE name="Akash";
+update ddetails_3 set department="Mech" WHERE name="Nisha";
+update ddetails_3 set department="ECE" WHERE name="Sufail";
+update ddetails_3 set department="Civil" WHERE name="Shameer";
+update ddetails_3 set department="Civil" WHERE name="Muhsina";
+update ddetails_3 set department="ECE" WHERE name="Mariya";
+update ddetails_3 set department="EEE" WHERE name="Shibla";
+update ddetails_3 set department="Mech" WHERE name="Bhaskar";
+update ddetails_3 set department="Civil" WHERE name="Anu";
+select * from ddetails_3;
+                                                                                                                                                                                                                                                 
