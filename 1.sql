@@ -1,0 +1,15 @@
+use students111;
+create table details_3(id int,name varchar(20),address varchar(50),maths int,physics int,cs int,total int);
+insert into details_3 values(1,'Swathi','Thayyil house',23,24,25,100);
+insert into details_3 values(2,'Akash','Manat house',24,24,25,100);
+insert into details_3 values(3,'Nisha','abc house',23,28,25,100);
+insert into details_3 values(4,'Sufail','def house',23,24,25,100);
+insert into details_3 values(5,'Shameer','xyz house',23,24,25,100);
+insert into details_3 values(6,'Muhsina','fds house',23,24,25,100);
+insert into details_3 values(7,'Mariya','jhk house',23,24,25,100);
+insert into details_3 values(8,'Shibla','lkj house',23,24,25,500);
+insert into details_3 values(9,'Bhaskar','bhg house',23,24,25,100);
+insert into details_3 values(10,'Anu','uhy house',23,24,25,450);
+select * from details_3;
+select id,name from details_3;
+select id,name from details_3 where(total>=350);                                                                                                                                                                             
